@@ -9,10 +9,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-
-import com.trinhtien2212.demo_web_jsp.model.product;
-import com.trinhtien2212.demo_web_jsp.service.CustomerService;
 import com.trinhtien2212.demo_web_jsp.service.MenuService;
 import com.trinhtien2212.demo_web_jsp.service.ProductService;
 import com.trinhtien2212.demo_web_jsp.service.ReviewService;
