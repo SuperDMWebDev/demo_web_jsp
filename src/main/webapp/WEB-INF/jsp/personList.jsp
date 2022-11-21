@@ -12,12 +12,12 @@
    
     <br/><br/>
     <div>
-      <table border="1">
+      <table>
         <tr>
           <th>First Name</th>
           <th>Last Name</th>
         </tr>
-        <c:forEach  items="${persons}" var ="person">
+        <c:forEach  items="${persons}">
         <tr>
           <td>${person.firstName}</td>
           <td>${person.lastName}</td>
